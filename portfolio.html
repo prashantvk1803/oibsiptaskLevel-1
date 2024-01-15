@@ -234,7 +234,7 @@
                 <br>
 
                 <div class="buttons">
-                    <button class="btn1">Download Resume</button>
+                    <button class="btn1">Visit LinkedIn</button>
                     <button class="btn2">Visit Github</button>
                 </div>
             </div>
@@ -314,7 +314,7 @@
                     <li><a href="/">About</a></li>
                     <li><a href="/">Services</a></li>
                     <li><a href="#" id="contact-link">Contact</a><span id="email-display"
-                            style="display: none; margin-left: 5px;">01fe21bcs073@kletech.ac.in</span></li>
+                            style="display: none; margin-left: 5px;">prashantkonaraddi@gmail.com</span></li>
                 </ul>
             </div>
             <div class="footer-third">
@@ -340,8 +340,11 @@
         document.querySelector('.btn2').addEventListener('click', function () {
             window.location.href = 'https://github.com/prashantvk1803';
         });
+        document.querySelector('.btn1').addEventListener('click', function () {
+            window.location.href = 'https://www.linkedin.com/in/prashant-venkatesh-konaraddi-1b4a40255/';
+        });
 
-        document.getElementById('contact-link').addEventListener('click', function (event) {
+        document.getElementById('contact-link').addEventListener('click', function (event){
             event.preventDefault();
             document.getElementById('email-display').style.display = 'inline';
         });
