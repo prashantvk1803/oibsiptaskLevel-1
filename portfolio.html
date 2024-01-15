@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVK-Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Poppins', sans-serif;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(18, 18, 62);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(124, 12, 134);
+            font-size: 1.04rem;
+        }
+
+        .footer-second ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer-second ul li a:hover {
+            text-decoration: none;
+            color: white;
+            font-size: 1.04rem;
+            color: rgb(124, 12, 134);
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.4rem;
+        }
+
+        .rightSection img {
+            width: 95%;
+            margin: 10px 0;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 73vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 68vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+
+        }
+
+        .secondSection h1 {
+            font-size: 1.8rem;
+
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 50px;
+            position: relative;
+            top: -32px;
+            left: -20px;
+            size-adjust: 10px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 100px;
+            font-size: 9px;
+            ;
+        }
+
+        footer {
+            background-color: rgb(18, 18, 62);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+        }
+
+        .leftSection .btn1 {
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 12px;
+        }
+
+        .leftSection .btn2 {
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 12px;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Prashant's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi! My name is <span class="purple">
+                    Prashant.
+                </span>
+                <div>I'm a </div><span id="element"></span>
+                <br>
+
+                <div class="buttons">
+                    <button class="btn1">Download Resume</button>
+                    <button class="btn2">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="portfolio.png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience and Projects</h1>
+
+            <div class="box">
+                <div class="vertical"><img class="image-top" src="security.png" alt="">
+                    <div class="vertical-title">
+                        Verzeo Cyber Security Intern
+                    </div>
+                    <div class="vertical-desc">
+                        During my work experience, I gained proficiency in basic footprinting, phishing techniques,
+                        and employed Havij for basic SQL injection through URLs. Additionally,
+                        I acquired knowledge in steganography and various encryption methods.
+                        My skills contribute to a robust understanding of cybersecurity and its applications.
+                    </div>
+                </div>
+
+                <div class="vertical"><img class="image-top" src="frontend.png" alt="">
+                    <div class="vertical-title">
+                        Course Project on Full stack Development
+                    </div>
+                    <div class="vertical-desc">
+                        Designed and implemented a patient history module for a rehabilitation center using
+                        React for the frontend, with HTML and CSS for the UI. Leveraged Node.js and Express.js
+                        to develop the backend, integrating MongoDB as the database. This module ensures
+                        efficient management and retrieval of patients' historical data.
+                    </div>
+                </div>
+
+                <div class="vertical"><img class="image-top" src="cloud.png" alt="">
+                    <div class="vertical-title">
+                        Project on Openstack VNF placement using Machine learning
+                    </div>
+                    <div class="vertical-desc">
+                        Worked on OpenStack VNF (Virtual Network Function) placement, employing machine learning
+                        techniques. Utilized OpenStack Yoga with a multi-node setup, VM Workstation, and applied
+                        logistic regression and Long Short-Term Memory (LSTM) on time series data of compute nodes'
+                        resource usage. Successfully implemented a classification system to categorize nodes as either
+                        overloaded or underutilized and working on live migration of VMs.
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="security.png" alt="">
+                    <div class="vertical-title">
+                        Course Project on Image processing and classification
+                    </div>
+                    <div class="vertical-desc">
+                        Engaged in a project focused on image classification for tires, employing deep learning
+                        neural networks. Leveraged frameworks such as PyTorch to develop and train the model.
+                        The objective is to accurately classify tire images as either cracked or normal,
+                        demonstrating proficiency in computer vision and machine learning techniques for real-world
+                        applications.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Prashant's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="#" id="contact-link">Contact</a><span id="email-display"
+                            style="display: none; margin-left: 5px;">01fe21bcs073@kletech.ac.in</span></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+
+            </div>
+            <div class="footer-fourth">
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;prashantsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ["Computer Science engineering student."],
+            typeSpeed: 50,
+        });
+    </script>
+    <script>
+        document.querySelector('.btn2').addEventListener('click', function () {
+            window.location.href = 'https://github.com/prashantvk1803';
+        });
+
+        document.getElementById('contact-link').addEventListener('click', function (event) {
+            event.preventDefault();
+            document.getElementById('email-display').style.display = 'inline';
+        });
+    </script>
+
+</body>
+
+</html>
